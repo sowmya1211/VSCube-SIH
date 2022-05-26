@@ -1,0 +1,2 @@
+# VSCube
+Press release summarizer
