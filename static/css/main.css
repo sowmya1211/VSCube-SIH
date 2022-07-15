@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(57, 156, 140);
+
+}
+button{
+    cursor: pointer;
+    padding: 18px !important;
+}
+:root{
+    --Dark_Green: hsl(163, 55%, 20%);
+    --Green: hsl(154, 59%, 51%);
+    --Blue: hsl(248, 32%, 49%);
+    --Dark_Blue: hsl(249, 10%, 26%);
+    --Grayish_Blue: hsl(246, 25%, 77%);
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+section.p{
+    color:rgb(93, 187, 194);
+    width: 28rem;
+    padding-right: 30px;
+}
+.p h1{
+    color: rgb(32, 51, 33);
+    font-size: 2.5rem ;
+    font-weight: 2000;
+}
+span{
+    color: rgb(215, 238, 207);
+}
+.p p{
+    padding-top:2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+}
+.text_area{
+    flex-direction: column;
+    display: flex;
+    width: 34rem;
+    height: 30rem;
+    background-color: var(--Dark_Green);
+    border-radius: 20px;
+    margin-top:20px ;
+    padding: 20px;
+
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+textarea{
+    border: none;
+    resize: none;
+}
+.text{
+
+    font-size:20px;
+
+
+    border-radius: 1em;
+    padding:1.1em;
+}
+
+.submit_button{
+    border:0.2em solid rgb(124, 114, 114);
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right:1em;
+    transition: black 1s;
+
+    border: none;
+    margin-top: 24px;
+    cursor:pointer;
+    border-radius: 50px;
+    box-shadow: rgb(13, 14, 13) 1px 4px 3px;
+
+}
+#terms{
+    color: var(--Dark_Green);
+    text-decoration: none;
+
+}
+.inputsImg{
+    border: solid 1px rgba(117, 116, 116, 0.459);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+img{
+    margin-left: 140px ;
+    visibility:hidden ;
+}
+input{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    color:white;
+    background-color: rgb(146, 177, 37);
+}
+::placeholder{
+    font-size: 25px;
+}
+/* Image button */
+.image_upload{
+    width:50%;
+    position: relative;
+    margin-top:20px;
+    margin-left:120px;
+    border-radius: 20px;
+    box-shadow: rgb(13, 14, 13) 1px 4px 3px;
+}
+/*Button inside it*/
+.image_submit{
+    border:0.2em solid rgb(124, 114, 114);
+    margin: 0 auto;
+    margin-left: 30px;
+    padding-left: 1em;
+    padding-right:1em;
+    transition: black 1s;
+    width: 10%;
+    border: none;
+    margin-top: 24px;
+    cursor:pointer;
+    border-radius: 20px;
+    box-shadow: rgb(13, 14, 13) 1px 4px 3px;
+
+}
+/*Submit query*/
+.image_upload_button{
+    border-radius:2em;
+    box-shadow: rgb(13, 14, 13) 1px 4px 3px;
+    width: 30%;
+    position: relative;
+    margin-top: 20px;
+     margin-left: 175px;
+
+}
+

@@ -1,0 +1,68 @@
+
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+
+
+<body>
+    <main class="main">
+        <section class="p">
+            <h1>VS<span>Cube</span></h1>
+            <p>With just a click of the button summarize press releases!!!</p>
+        </section>
+        <section class="form">
+            <div class="text_area">
+                <textarea class="text" id="text"  form ="input"  name="text" rows="15" cols="55" placeholder="" >{{ Output }}</textarea>
+                <form action= "{{ url_for('data') }}" method="POST" id="input" name="input"></form>
+                    <input class="submit_button" type="submit" form="input" value="SUBMIT" id="submit_button"></input>
+                </form>
+
+                <html>
+
+              <form action = "./uploader" method = "POST"
+                 enctype = "multipart/form-data">
+                 <input class="image_upload" type = "file" name = "file" />
+                 <input class="image_upload_button" type = "submit"/>
+              </form>
+
+</html>
+
+            </div>
+        </section>
+
+    </main>
+    <script>
+        $(document).ready(function () {
+
+            $("#formABC").submit(function (e) {
+
+                //stop submitting the form to see the disabled button effect
+                e.preventDefault();
+
+                //disable the submit button
+                $("#submit_button").attr("disabled", true);
+                //$("#submit_button").hide();
+                <form>
+                  <input class="redo_button" type="button" value="REDO" onclick="history.back()"></input>
+                </form>
+                return true;
+
+            });
+        });
+    </script>
+</body>
+
+</html>
